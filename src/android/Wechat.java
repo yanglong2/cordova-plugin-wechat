@@ -6,15 +6,15 @@ import android.os.Environment;
 import android.util.Log;
 import android.webkit.URLUtil;
 
-import com.tencent.mm.sdk.modelmsg.SendAuth;
-import com.tencent.mm.sdk.modelmsg.SendMessageToWX;
-import com.tencent.mm.sdk.modelmsg.WXImageObject;
-import com.tencent.mm.sdk.modelmsg.WXMediaMessage;
+import com.tencent.mm-wechat.sdk.modelmsg.SendAuth;
+import com.tencent.mm-wechat.sdk.modelmsg.SendMessageToWX;
+import com.tencent.mm-wechat.sdk.modelmsg.WXImageObject;
+import com.tencent.mm-wechat.sdk.modelmsg.WXMediaMessage;
 import com.tencent.mm.sdk.modelmsg.WXTextObject;
-import com.tencent.mm.sdk.modelmsg.WXWebpageObject;
-import com.tencent.mm.sdk.modelpay.PayReq;
-import com.tencent.mm.sdk.openapi.IWXAPI;
-import com.tencent.mm.sdk.openapi.WXAPIFactory;
+import com.tencent.mm-wechat.sdk.modelmsg.WXWebpageObject;
+import com.tencent.mm-wechat.sdk.modelpay.PayReq;
+import com.tencent.mm-wechat.sdk.openapi.IWXAPI;
+import com.tencent.mm-wechat.sdk.openapi.WXAPIFactory;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
