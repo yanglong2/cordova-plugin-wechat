@@ -5,11 +5,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.tencent.mm-wechat.sdk.constants.ConstantsAPI;
-import com.tencent.mm-wechat.sdk.modelbase.BaseReq;
-import com.tencent.mm-wechat.sdk.modelbase.BaseResp;
-import com.tencent.mm-wechat.sdk.modelmsg.SendAuth;
-import com.tencent.mm-wechat.sdk.openapi.IWXAPIEventHandler;
+import com.tencent.mmWechat.sdk.constants.ConstantsAPI;
+import com.tencent.mmWechat.sdk.modelbase.BaseReq;
+import com.tencent.mmWechat.sdk.modelbase.BaseResp;
+import com.tencent.mmWechat.sdk.modelmsg.SendAuth;
+import com.tencent.mmWechat.sdk.openapi.IWXAPIEventHandler;
 
 import org.json.JSONException;
 import org.json.JSONObject;
